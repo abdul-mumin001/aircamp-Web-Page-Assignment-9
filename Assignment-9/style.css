@@ -39,8 +39,9 @@ body {
 }
 
 .head-2 {
-    padding: 7%;
-    width: 86%;
+    margin-top: 7%;
+    padding: 5%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
