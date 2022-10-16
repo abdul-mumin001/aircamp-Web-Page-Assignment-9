@@ -39,7 +39,7 @@ body {
 }
 
 .head-2 {
-    margin-top: 7%;
+    margin-top: 6%;
     padding: 5%;
     width: 90%;
     display: flex;
@@ -54,8 +54,168 @@ body {
     font-size: 60px;
 }
 
-main {
-    border: 1px solid red;
-    height: 700px;
-    background-color: aqua;
+
+.section {
+    width: 90%;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.para {
+
+    width: 350px;
+    color: black;
+    margin: 20px;
+}
+
+.brand {
+    margin: 2%;
+    padding: 2%;
+    color: crimson;
+    font-size: 20px;
+}
+
+.para p {
+    margin: 2%;
+    padding: 2%;
+}
+
+button {
+    margin: 3%;
+    padding: 2%;
+    margin-top: 10px;
+    width: 30%;
+    padding: 5px;
+    background-color: #c15355;
+    color: white;
+    border: none;
+}
+
+.arraw img {
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: #cccccc;
+    border-radius: 100%;
+}
+
+
+.showimage{
+
+    height: 500px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.heading h1{
+    font-size: 35px;
+   
+}
+.heading{
+    color: white;
+}
+.image{
+    width: 200px;
+    height: auto;
+    border: 1px solid #cccccc;
+    margin-top: 30px;
+    margin: 15px;
+    padding: 20px;
+    /* padding: 10px; */
+}
+
+.image img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   
+    margin: auto;
+}
+.imagemain{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.nameimage{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.nameimage p{
+    color: #cccccc;
+}
+.nameimage h3{
+    font-size: 25px;
+    
+}
+.logoabsolute{
+    position: absolute;
+    left: 380px;
+    bottom: 40px;
+    width: 40px;
+}
+.logoabsolute1{
+    position: absolute;
+    left: 662px;
+    bottom: 40px;
+    width: 40px;
+}
+.logoabsolute2{
+    position: absolute;
+    left: 935px;
+    bottom: 40px;
+    width: 40px;
+}
+.logoabsolute3{
+    position: absolute;
+    left: 1208px;
+    bottom: 40px;
+    width: 40px;
+}
+.logoabsolute img{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.logoabsolute1 img{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+.logoabsolute2 img{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+.logoabsolute3 img{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
 }
