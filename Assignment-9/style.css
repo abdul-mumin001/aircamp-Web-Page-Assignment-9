@@ -235,3 +235,54 @@ body {
 }
 
 
+.bottom1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #c15355;
+
+}
+
+.bottom1 h3 {
+    font-size: 40px;
+}
+
+.scenerymain {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scenery img {
+    width: 350px;
+    height: 200px;
+    /* margin: 40px; */
+}
+
+.scenery {
+    width: 400px;
+    height: auto;
+    margin: 40px;
+}
+
+.scenery h6 {
+    font-size: 18px;
+    color: brown;
+}
+
+.img-para-btn {
+    margin: 1%;
+    padding: 1%;
+    margin-top: 10px;
+    width: 20%;
+    padding: 5px;
+    background-color: #c15355;
+    color: white;
+    border: none;
+}
